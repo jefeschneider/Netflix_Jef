@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0f0f0f;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-color: #0f0f0f;
+}
+
+.categoria-lista {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  background-color: #0f0f0f;
+}
+
+.categoria-lista img {
+  height: 400px;
+  transform: scale(0.9);
+  transition: ease 0.2s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categoria-lista img:hover {
+  transform: scale(1);
+}
+
+.botao-lista {
+  position: sticky;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.categoria-esquerda {
+  left: 0;
+}
+
+.categoria-direita {
+  right: 0;
+}
+
+.icone {
+  transform: scale(0.9);
+  transition: ease 0.2s;
+}
+
+.icone:hover {
+  transform: scale(1.2);
+}
+
+.movie-img {
+  width: 100vw;
+  height: 100%;
+}
+
+.netflix-logo {
+  width: 8vw;
+}
+
+.netflix-logo-login {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  width: 15vw;
+  position: absolute;
+}
+
+
+.spacing {
+  margin-top: 3.5vw;
+}
+
+#highlight-title {
+  color: white;
+}
+
+#highlight-text {
+  color: white;
+  margin-right: 60vw
+}
+
+#highlight-box {
+  margin-left: 2vw;
+}
+
+.login-textfield {
+  background-color: gray;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.movie-box {
+  position: absolute;
+  margin-right: 2vw;
+  color: white;
+}
+
+.movie-desc {
+  margin-top: 36vw;
+  background-color: #0f0f0f;
+  width: 99vw;
+  padding-bottom: 2vw;
+}
+
+.movie-title {
+  background-color: #0f0f0f;
+}
+
+.movie-img {
+  margin-top: -180px;
+}
